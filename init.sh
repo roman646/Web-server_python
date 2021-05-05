@@ -1,12 +1,10 @@
-
-sudo mkdir web
-sudo cd web
-sudo mkdir public
-sudo mkdir uploads
-sudo mkdir etc
-sudo cd public
-sudo mkdir img
-sudo mkdir css
-sudo mkdir js
+sudo mkdir ../web
+sudo mkdir ../web/public
+sudo mkdir ../web/uploads
+sudo mkdir ../web/etc
+sudo mkdir ../web/public/img
+sudo mkdir ../web/public/css
+sudo mkdir ../web/public/js
+sudo cp nginx.config ../web/nginx.config
 sudo rm ../../../../etc/nginx/ngonx.config
-sudo ln -s nginx.config ../../../../etc/nginx/ngonx.config
+sudo ln -s nginx.config ../../../../etc/nginx
