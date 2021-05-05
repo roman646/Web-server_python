@@ -7,4 +7,4 @@ sudo mkdir ../web/public/css
 sudo mkdir ../web/public/js
 sudo cp nginx.conf ../web/nginx.conf
 sudo rm ../../../../etc/nginx/nginx.conf
-sudo ln -s nginx.config ../../../../etc/nginx
+sudo ln -s nginx.conf ../../../../etc/nginx
