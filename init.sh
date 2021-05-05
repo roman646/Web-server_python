@@ -6,5 +6,5 @@ sudo mkdir ../web/public/img
 sudo mkdir ../web/public/css
 sudo mkdir ../web/public/js
 sudo cp nginx.conf ../web/nginx.config
-sudo rm ../../../../etc/nginx/ngonx.config
+sudo rm ../../../../etc/nginx/nginx.config
 sudo ln -s nginx.config ../../../../etc/nginx
