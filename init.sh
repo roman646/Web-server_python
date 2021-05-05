@@ -5,6 +5,6 @@ sudo mkdir ../web/etc
 sudo mkdir ../web/public/img
 sudo mkdir ../web/public/css
 sudo mkdir ../web/public/js
-sudo cp nginx.conf ../web/nginx.config
-sudo rm ../../../../etc/nginx/nginx.config
+sudo cp nginx.conf ../web/nginx.conf
+sudo rm ../../../../etc/nginx/nginx.conf
 sudo ln -s nginx.config ../../../../etc/nginx
