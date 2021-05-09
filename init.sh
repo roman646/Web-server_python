@@ -6,7 +6,7 @@ sudo mkdir ../web/public/img
 sudo mkdir ../web/public/css
 sudo mkdir ../web/public/js
 
-sudo ln -sf /home/box/Web-server_python/nginx.conf /etc/nginx/sites-enabled/test.conf
+sudo ln -sf /home/box/Web-server_python/nginx.conf /etc/nginx/nginx.conf
 sudo rm -rf /etc/nginx/sites-enabled/default
-sudo /etc/init.d/nginx restart
+sudo nginx
 
