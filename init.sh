@@ -6,6 +6,8 @@ sudo mkdir ../web/public/img
 sudo mkdir ../web/public/css
 sudo mkdir ../web/public/js
 
+sudo ln -sf /home/box/Web-server_python/gunicorn.conf.py /etc/gunicorn.d/gunicorn.conf.py
+
 sudo ln -sf /home/box/Web-server_python/nginx.conf /etc/nginx/nginx.conf
 sudo rm -rf /etc/nginx/sites-enabled/default
 sudo nginx
